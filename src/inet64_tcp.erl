@@ -1,8 +1,12 @@
 %%% Universal tcp driver for inet and inet6 address families
 %%%
-%%% The MIT License (MIT)
+%%% (C) YANDEX LLC, 2015
 %%%
-%%% Copyright (c) 2015 Yandex
+%%% The Source Code called "inet64_tcp" available at https://github.com/yandex/inet64_tcp
+%%% is subject to the terms of the MIT License (MIT) (hereinafter referred to as the "License").
+%%% The text of the License is the following:
+%%%
+%%% The MIT License (MIT)
 %%%
 %%% Permission is hereby granted, free of charge, to any person obtaining a copy
 %%% of this software and associated documentation files (the "Software"), to deal
