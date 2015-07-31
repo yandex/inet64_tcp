@@ -28,6 +28,8 @@
 %%%
 -module(inet64_tcp).
 
+-author("Danil Zagoskin <stolen@yandex-team.ru>").
+
 %% Load/unload the driver by starting/stopping the application
 -export([start/0, stop/0]).
 
