@@ -1,12 +1,15 @@
-{application, inet64_tcp, [
-        {description, "Magic driver to make generic gen_tcp apps work in IPv6-only networks"},
-        {vsn, "0.1.0"},
-        {id, "git"},
-        {mod, {inet64_tcp_app, []}},
-        {modules, []},
-        {registered, []},
-        {applications, [
-                kernel,
-                stdlib
-                ]}
-        ]}.
+{application, inet64_tcp,
+ [{description, "Magic driver to make generic gen_tcp apps work in IPv6-only networks"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {inet64_tcp_app, []}},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["MIT"]},
+  {links, []}
+ ]}.

@@ -2,3 +2,4 @@ ebin
 .*.sw?
 .erlang.mk.*
 erl_crash.dump
+_build/
